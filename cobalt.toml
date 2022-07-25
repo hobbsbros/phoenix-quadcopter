@@ -1,0 +1,7 @@
+[site]
+name = "Phoenix"
+title = "site | page"
+
+[style]
+default = "style.css"
+external = ["https://fonts.googleapis.com/css2?family=Maven+Pro&family=Secular+One&display=swap"]

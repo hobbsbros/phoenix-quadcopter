@@ -1,11 +1,14 @@
 <html>
     <head>
-    <title></title>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Secular+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="404-location"></div>
+        <!-- Provide a 404 message -->
     </body>
     <script>
+        // Redirection `domain.com/test` to `domain.com/test.html`
         if (!window.location.href.endsWith(".html")) {
             window.location.href = "/phoenix-quadcopter" + window.location.pathname.replace("/phoenix-quadcopter", "") + ".html";
         }

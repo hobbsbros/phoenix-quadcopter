@@ -1,0 +1,11 @@
+\pagename{eternal-os}
+
+~
+[Home](../index.html)[Software](index.html)
+~
+
+# eternal-os
+
+Eternal OS is the primary firmware for the Phoenix Quadcopter.
+
+It links driver dependencies with a custom radio protocol and control software to transform input via radio transmission into motor voltages.
